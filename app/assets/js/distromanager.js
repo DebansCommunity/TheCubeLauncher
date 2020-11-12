@@ -544,7 +544,7 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-        const distroURL = 'https://update.norfair.stream/launcher/distribution.json'
+        const distroURL = 'https://update.debans.net/launcher/distribution.json'
         const opts = {
             url: distroURL,
             timeout: 2500

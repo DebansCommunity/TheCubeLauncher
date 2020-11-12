@@ -130,7 +130,7 @@ function updateSelectedAccount(authUser){
             username = authUser.displayName
         }
         if(authUser.uuid != null){
-            document.getElementById('avatarContainer').style.backgroundImage = `url('https://skin.norfair.stream/renders/head/${authUser.uuid}?scale=10&default=MHF_Steve&overlay')`
+            document.getElementById('avatarContainer').style.backgroundImage = `url('https://skin.debans.net/renders/head/${authUser.uuid}?scale=10&default=MHF_Steve&overlay')`
         }
     }
     user_text.innerHTML = username
